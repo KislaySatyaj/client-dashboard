@@ -39,9 +39,9 @@ Follow these steps to run the project locally:
    - Focused on clean UI, consistent spacing, readable typography, and subtle hover effects.
 
 🔹 Assumptions
-      - The API does not provide user status, so Active / Inactive status is generated randomly for display.
-      - Since the dataset is small, client-side pagination is sufficient.
-      - No heavy UI libraries were used to keep the code lightweight and easy to understand.
+   - The API does not provide user status, so Active / Inactive status is generated randomly for display.
+   - Since the dataset is small, client-side pagination is sufficient.
+   - No heavy UI libraries were used to keep the code lightweight and easy to understand.
 
 ✨ Features
   - 📋 User dashboard with card-based layout
