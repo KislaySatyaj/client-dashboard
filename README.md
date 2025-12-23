@@ -27,15 +27,15 @@ Follow these steps to run the project locally:
 
 🧠 Approach & Assumptions
 🔹 Approach
-    - Built using React functional components and hooks (useState, useEffect).
-    - Followed a component-based architecture for better readability and reusability.
-    - Integrated a public API and handled all major UI states:
-        - ⏳ Loading (using skeleton loaders)
-        - ❌ Error state
-        - 📭 Empty state
-    - Implemented client-side search and pagination for smooth user experience.
-    - Used a modal-based design to show user details without page navigation.
-    - Focused on clean UI, consistent spacing, readable typography, and subtle hover effects.
+   - Built using React functional components and hooks (useState, useEffect).
+   - Followed a component-based architecture for better readability and reusability.
+   - Integrated a public API and handled all major UI states:
+      - ⏳ Loading (using skeleton loaders)
+      - ❌ Error state
+      - 📭 Empty state
+   - Implemented client-side search and pagination for smooth user experience.
+   - Used a modal-based design to show user details without page navigation.
+   - Focused on clean UI, consistent spacing, readable typography, and subtle hover effects.
 
 🔹 Assumptions
       - The API does not provide user status, so Active / Inactive status is generated randomly for display.
