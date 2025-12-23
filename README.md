@@ -26,6 +26,7 @@ Follow these steps to run the project locally:
    http://localhost:3000
 
 🧠 Approach & Assumptions
+
 🔹 Approach
    - Built using React functional components and hooks (useState, useEffect).
    - Followed a component-based architecture for better readability and reusability.
