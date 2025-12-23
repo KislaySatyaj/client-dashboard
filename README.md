@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 🚀 Mini Client Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **frontend-focused mini client dashboard** built using **React**, inspired by real-world SaaS admin panels.  
+The application displays a list of users, supports search and pagination, and shows detailed user information in a clean, responsive UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Setup Steps
 
-### `npm start`
+Follow these steps to run the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KislaySatyaj/client-dashboard
+2.  Navigate to the project folder:
+    ```bash
+    cd client-dashboard
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm start
+5. Open the browser and visit:
+   ```bash
+   http://localhost:3000
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧠 Approach & Assumptions
+🔹 Approach
+    - Built using React functional components and hooks (useState, useEffect).
+    - Followed a component-based architecture for better readability and reusability.
+    - Integrated a public API and handled all major UI states:
+        - ⏳ Loading (using skeleton loaders)
+        - ❌ Error state
+        - 📭 Empty state
+    - Implemented client-side search and pagination for smooth user experience.
+    - Used a modal-based design to show user details without page navigation.
+    - Focused on clean UI, consistent spacing, readable typography, and subtle hover effects.
 
-### `npm test`
+🔹 Assumptions
+      - The API does not provide user status, so Active / Inactive status is generated randomly for display.
+      - Since the dataset is small, client-side pagination is sufficient.
+      - No heavy UI libraries were used to keep the code lightweight and easy to understand.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ Features
+  - 📋 User dashboard with card-based layout
+  - 🔍 Search users by name
+  - 📄 Client-side pagination
+  - 👤 User details modal
+  - 🦴 Skeleton loader while fetching data
+  - ⚠️ Error & empty state handling
+  - 📱 Responsive design (mobile + desktop)
 
-### `npm run build`
+🔮 What I Would Improve With More Time
+ If given more time, I would:
+  - 🎨 Move inline styles to a scalable styling solution (Tailwind CSS / CSS Modules)
+  - 🔃 Add sorting options (by name or status)
+  - ♿ Improve accessibility (keyboard navigation, ARIA labels)
+  - 🧪 Add unit tests for key components
+  - 🌐 Implement server-side pagination for large datasets
+  - ✨ Add smoother animations for modal transitions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠 Tech Stack
+  
+  - React
+  - JavaScript (ES6)
+  - HTML & CSS
+  - JSONPlaceholder Public API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📌 Notes
+This project was built as part of a Frontend / Full Stack Intern assignment, with a focus on:
 
-### `npm run eject`
+  - Clean UI
+  - Good UX
+  - Maintainable code
+  - Real-world dashboard behavior
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
